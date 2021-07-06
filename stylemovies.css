@@ -11,8 +11,8 @@ MediumSeaGreen
 body {
 	background-color: lightyellow;
 	background-image: url("../../Downloads/pastel\ sea.jpeg");
-	background-repeat: no-repeat;
-	background-position: center;
+
+	background-position: top;
 	background-attachment: scroll;
 	background-size: 1300px 1000px;
 }
@@ -41,4 +41,8 @@ h2{
 	background-color: rgba(255, 99, 71, 0.6);
 	text-align:center;
 
+}
+
+p{
+	color:black;
 }
