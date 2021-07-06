@@ -1,0 +1,44 @@
+/* CSS comments are written like this.
+With this format, if in an html file, they must be written within the <style> tag */
+/*
+Nice colors: (and ways to represent colors)
+#77a4a6 
+hsl(286, 52%, 85%) 
+rgba(255, 99, 71, 0.5)
+MediumSeaGreen
+*/
+
+body {
+	background-color: lightyellow;
+	background-image: url("../../Downloads/pastel\ sea.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+	background-size: 1300px 1000px;
+}
+
+*{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family:"Courier New", monospace;
+}
+h1{
+	outline-style:solid;
+	outline-color:white;
+	outline-width: thick;
+	outline-offset: 5px;
+	padding: 15px 30px 15px;
+	margin-top: 30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: black;
+	text-align:center;
+	border: 5px dotted rgba(255, 99, 71, 0.6); 
+	border-radius: 25px;
+}
+h2{
+	color:white;
+	background-color: rgba(255, 99, 71, 0.6);
+	text-align:center;
+
+}
