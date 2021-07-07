@@ -19,7 +19,7 @@ print(count)
 
 stringinhtml = ""
 for title in listOfTitles:
-    stringinhtml = stringinhtml + " <li>" + title + " </li>"
+    stringinhtml = stringinhtml +  " <li>" + '<input type="checkbox">'  + title + " </li>" 
  
 print(stringinhtml)
 
