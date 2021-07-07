@@ -10,7 +10,7 @@ MediumSeaGreen
 
 body {
 	background-color: lightyellow;
-	background-image: url("../../Downloads/pastel\ sea.jpeg");
+	background-image: url("images/pastel\ sea.jpeg");
 
 	background-position: top;
 	background-attachment: scroll;
@@ -59,15 +59,19 @@ h2{
 
 }
 
-p{
+ul{
+
+/* need to resize image to a v small size if you want it to be a bullet point */
+	list-style-image: url('images/movie-icon.png');
+
 	color:black;
 	margin-left: 20px;
 	margin-right: 30px;
 	background-color: rgba(255, 99, 71, 0.1);
-	border: 3px solid white; 
-  	font-family: Georgia, serif;
+	
+  	font-family: "Georgia", serif;
 	width: 400px;
-  	height: 400px;
+  	height: 500px;
 	overflow: scroll;
 }
 

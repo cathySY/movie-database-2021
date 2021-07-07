@@ -7,7 +7,6 @@ content = requests.get(URL)
 soup = BeautifulSoup(content.text, 'html.parser')
 #print(soup.prettify())
 tableTitles = soup.select("table[class='wikitable sortable'] > tbody > tr > td > i") #soup.find_all('table', class_="wikitable sortable")
-tableDates = soup.select("table[class='wikitable sortable'] > tbody > tr > td > i")
 
 listOfTitles = []
 count = 0
@@ -18,11 +17,11 @@ for t in tableTitles:
 print(count)
 
 
-stringhtml = ""
+stringinhtml = ""
 for title in listOfTitles:
-    stringhtml = stringhtml + " " + title + " " + "<br>"
+    stringinhtml = stringinhtml + " <li>" + title + " </li>"
  
-print(stringhtml)
+print(stringinhtml)
 
 '''
 listOfAllInfo = []
